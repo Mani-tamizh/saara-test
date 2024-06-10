@@ -1,0 +1,1249 @@
+:root
+{
+    --barlow:
+    font-family: "Barlow", sans-serif;;
+    --barlow-c:
+    font-family: "Barlow condensed", sans-serif;;
+    --roboto:
+    font-family: "Roboto", sans-serif;;
+    --poireto:
+    font-family: "Poiret One", sans-serif;;
+}
+body
+{
+
+    background: url('https://saaraaglobal.com/wp-content/uploads/2024/05/3264.jpg') no-repeat center center/cover;
+    object-fit: cover;
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    z-index: -1;
+    position: relative;
+}
+*
+{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+header {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    padding: 10px 0;
+}
+
+.header-content {
+    width: 100%;
+    background-color:white;
+    position: sticky;
+    top: 0;
+    z-index: 1000090;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 ;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-family: var(--barlow);
+    font-size: 16px;
+    font-weight: 500;
+    color: #cf2e2e;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 500;
+}
+header
+{
+    height: 100%;
+    background-color: white;
+}
+.header-content #btn
+{
+    display: none;
+}
+.header-image
+{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.header-image img {
+    height:100%;
+    width: 100%;
+    background-color:white;
+}
+
+.header-text 
+{
+    margin: 40px 0 0 0 ;
+    height: 250px;
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-text h2 {
+
+    font-family: "Barlow", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 2;
+    letter-spacing: 4px;
+}
+
+.header-text h1 {
+    margin: 0 0 20px  0;
+    font-size: 45px;
+    line-height: 1;
+    letter-spacing: 0;
+    color: #000000;
+    font-weight: 100;
+}
+.header-text div
+{
+    margin-top: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+    border-radius: 9999px;
+    width: 8%;
+}
+.pro
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffff;
+    padding-bottom: 50px;
+}
+.cat
+{
+    width: 85%;
+}
+.cat #first
+{
+    margin-top: 40px;
+}
+.cat img
+{
+    width: auto;
+}
+.cat p
+{
+    font-size: 19px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #636363;
+}
+.hero {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+}
+
+.hero-content h1 {
+    color: white;
+    font-size: 90px;
+    font-family: "Poiret One", sans-serif;
+    margin: 0;
+}
+.about {
+    background-color: white;
+    padding: 50px 10%;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.about-content div {
+    background-color: #fff;
+    border-radius: 8px;
+}
+.about-us
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.about-us .para
+{
+    width: 50%;
+}
+.para h3
+{
+    font-size: 35px;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+}
+.para h4
+{
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    font-family: "Barlow condensed", sans-serif;
+}
+.para h1
+{
+    border-bottom: 2px solid #636363;
+    width: 15%;
+    border-radius: 9999px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.para p
+{
+    font-family: var(--roboto);
+    font-size: 18px;
+    color: #636363;
+    font-weight: 300;
+    line-height: 1.8;
+}
+.whole
+{
+    height: 100%;
+    width: 100%;
+}
+.about-us img
+{
+    height: 70%;
+    width: 50%;
+}
+.why-choose-us
+{
+    height: 449px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.why-choose-us .why
+{
+    width: 50%;
+}
+.why-choose-us img
+{
+    height: 449px;
+    width: 50%;
+}
+.why
+{
+    padding: 50px;
+    box-sizing: border-box;
+}
+.why h3
+{
+    font-size: 35px;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+}
+.why h1
+{
+    border-bottom: 2px solid #636363;
+    width: 15%;
+    border-radius: 9999px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.why p
+{
+    font-family: var(--roboto);
+    font-size: 15px;
+    color: #636363;
+    font-weight: 300;
+    line-height: 1.8;
+}
+.our-history
+{
+    height: 449px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.our-history img
+{
+    height: 449px;
+    width: 50%;
+}
+.history
+{
+    height: 449px;
+    background-color: #CF2E2E;
+    width: 50%;
+    color: #ffffff;
+    padding: 40px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    box-sizing: border-box;
+}
+.history h3
+{
+    color: ghostwhite;
+    font-size: 35px;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+}
+.history h1
+{
+    color: ghostwhite;
+    border-bottom: 2px solid #ffffff;
+    width: 15%;
+    text-align: right;
+    border-radius: 9999px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.history p
+{
+    color: ghostwhite;
+    font-family: var(--roboto);
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.8;
+}
+.empty
+{
+    height: 60px;
+    width: 100%;
+    background-color: white;
+}
+.our-goals
+{
+    height: 449px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.our-goals img
+{
+    height: 449px;
+    width: 50%;
+}
+.our-goals .goals
+{
+    height: 100%;
+    width: 50%;
+    padding: 40px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    box-sizing: border-box;
+    background-color: #636363;
+}
+.goals h3
+{
+    color: #ffff;
+    font-size: 35px;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+}
+.goals h4
+{
+    color: #ffff;
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-weight: 500;
+    font-family: "Barlow condensed", sans-serif;
+}
+.goals h1
+{
+    color: #ffff;
+    border-bottom: 2px solid #636363;
+    width: 15%;
+    border-radius: 9999px;
+}
+.goals p
+{
+    color: #ffff;
+    font-family: var(--roboto);
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+.heroo {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+}
+
+.heroo-content h1 {
+    color: white;
+    font-size: 90px;
+    font-family: "Poiret One", sans-serif;
+    margin: 0;
+}
+.categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e2e2e2;
+    padding: 50px 10%;
+    text-align: center;
+}
+.categories h1
+{
+    border-bottom: 2px solid #636363;
+    width: 8%;
+    border-radius: 9999px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.categories h2 {
+    font-size: 45px;
+    font-family: var(--roboto);
+    font-weight: 100;
+}
+.products
+{
+    height: 100%;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: white;
+}
+.p1
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.pd1
+{
+    height: 500px;
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transform: scale(0.1);
+    opacity: 0;
+    transition: 1s;
+}
+.pd1.show-animate
+{
+    transform: scale(1);
+    opacity: 1;
+}
+.back
+{
+    height: 80%;
+    width: 100%;
+    background-color: red;
+}
+.back.b1
+{
+    background-image: url(https://saaraaglobal.com/wp-content/uploads/2024/05/resized-kapok-in-bowl-768x512.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.back.b2
+{
+    background-image: url(https://saaraaglobal.com/wp-content/uploads/2024/05/Waffle-towels.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.back.b3
+{
+    background-image: url(https://saaraaglobal.com/wp-content/uploads/2024/05/Cushions.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.back.b4
+{
+    background-image: url(https://saaraaglobal.com/wp-content/uploads/2024/05/Hammam-towels.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.back.b5
+{
+    background-image: url(https://saaraaglobal.com/wp-content/uploads/2024/05/sauna.png);
+    background-size: cover;
+    background-position: center;
+}
+.back.b6
+{
+    background-image: url(https://saaraaglobal.com/wp-content/uploads/2024/05/X-mas-Deco-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.back.b7
+{
+    background-image: url(https://saaraaglobal.com/wp-content/uploads/2024/05/Knitted-blanket.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.back.b8
+{
+    background-image: url(https://saaraaglobal.com/wp-content/uploads/2024/05/Beds.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.back.b9
+{
+    background-image: url(https://saaraaglobal.com/wp-content/uploads/2024/05/24790.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.back.b10
+{
+    background-image: url(https://saaraaglobal.com/wp-content/uploads/2024/05/babynest.png);
+    background-size: cover;
+    background-position: center;
+}
+.boxes
+{
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    background-color: white;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box
+{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.i1
+{
+    height: 171px;
+    width: 258px;
+}
+.i1 img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.contact-head {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head-contact {
+    text-align: center;
+}
+
+.head-contact h1 {
+    color: white;
+    font-size: 90px;
+    font-family: "Poiret One", sans-serif;
+    margin: 0;
+}
+.head-contact p {
+    color: white;
+    font-size: 20px;
+    font-family: "Poiret One", sans-serif;
+    margin: 0;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #d2d2d2;
+    padding: 50px 10%;
+    text-align: center;
+}
+.contact h2
+{
+    font-family: var(--barlow-c);
+    font-stretch: ultra-condensed;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #000000;
+}
+.contact #stay
+{
+    font-family: var(--roboto);
+    font-stretch: semi-condensed;
+    font-size: 45px;
+    font-weight: 200;
+}
+.contact #at
+{
+    font-family: var(--roboto);
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.phone h2,.email h2, .visit h2
+{
+    border-bottom: 2px solid #636363;
+    width: 80px;
+    border-radius: 9999px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.phone,.email,.visit
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.phone i,.email i,.visit i
+{
+    font-size: 60px;
+    color: black;
+}
+
+.phone p,.email p,.visit p
+{
+    font-size: 17px;
+    font-family: var(--barlow-c);
+}
+
+.phone h1,.email h1,.visit h1
+{
+    font-family: var(--roboto);
+    font-size: 24px;
+    color: #cf2e2e;
+}
+.email input
+{
+    height: 39px;
+    width: 136px;
+    border-radius: 30px;
+    border: none;
+    background-color: #cf2e2e;
+    color: white;
+    font-family: var(--roboto);
+    font-size: 12px;
+    word-spacing: 2px;
+}
+.name
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.he h1
+{
+    font-size: 22px;
+    color: #cf2e2e;
+}
+.name p
+{
+    font-family: var(--roboto);
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+}
+
+footer {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+@media (max-width:480px)
+{
+    *
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+body
+{
+
+    background: url('https://saaraaglobal.com/wp-content/uploads/2024/05/3264.jpg') no-repeat center center/cover;
+    object-fit: cover;
+    background-blend-mode: darken;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    z-index: -1;
+    position: relative;
+}
+header {
+    text-align: center;
+    background-color:white;
+    padding: 10px 0;
+}
+
+.header-image
+{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+.header-image img {
+    height:100%;
+    width: 100%;
+    background-color:white;
+}
+
+.header-content {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px;
+    gap: 30px;
+    transition: 1s;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: #cf2e2e;
+}
+.list
+{
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    height: 100vh;
+    width: 100%;
+    background-color:white;
+    transition: 1s;
+}
+.list.li
+{
+    transform: translateX(0);
+}
+
+nav ul li {
+    margin:0 10px;
+}
+
+#btn
+{
+    height:40px;
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    outline: 0.5px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10%;
+    border:none;
+    cursor: pointer;
+}
+#btn .bar
+{
+    height: 5px;
+    width: 100%;
+    margin: 4px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 1.0);
+    border-radius: 10px;
+}
+.header-content #btn
+{
+    display: block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.pro
+{
+    height: 1300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    padding-bottom: 0px;
+}
+.cat
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 85%;
+}
+.cat #first
+{
+    margin-top: 40px;
+}
+.cat img
+{
+    width: 100%;
+}
+.cat p
+{
+    font-size: 19px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #636363;
+}
+.about-us
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.why-choose-us
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.our-history
+{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.our-history .history
+{
+    background-color: #CF2E2E;
+    width: 100%;
+    color: #ffffff;
+}
+.our-history img
+{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.history
+{
+    padding: 30px;
+    text-align:left;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+
+.about {
+    background-color: #f4f4f4;
+    padding: 0;
+    text-align: center;
+}
+
+.hero-content h1 {
+    color: white;
+    font-size: 50px;
+    font-family: "Poiret One", sans-serif;
+    margin: 0;
+}
+.about h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.about-content div {
+    background-color: #fff;
+    border-radius: 8px;
+}
+.about-us
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.about-us .para
+{
+    width: 100%;
+    order: 1;
+    text-align: left;
+    padding: 30px;
+}
+
+.about-us img
+{
+    width: 100%;
+
+    height: 100%;
+    object-fit: cover;
+    order: 2;
+    margin-top: 10px;
+}
+
+.why-choose-us .why
+{
+    order: 1;
+    width: 100%;
+}
+.why-choose-us img
+{
+    order: 2;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 10px;
+    width: 100%;
+}
+.why
+{
+    width: 100%;
+    padding: 30px;
+    text-align: left;
+    box-sizing: border-box;
+}
+.why h3
+{
+    font-size: 35px;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+}
+.why h1
+{
+    border-bottom: 2px solid #636363;
+    width: 15%;
+    border-radius: 9999px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.why p
+{
+    font-family: var(--roboto);
+    font-size: 15px;
+    color: #636363;
+    font-weight: 300;
+    line-height: 1.8;
+}
+
+.our-goals
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.our-goals img
+{
+    height: 100%;
+    object-fit: cover;
+    order: 2;
+    width: 100%;
+}
+.our-goals .goals
+{
+    order: 1;
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    box-sizing: border-box;
+    background-color: #636363;
+}
+
+.products
+{
+    padding: 0;
+}
+.p1
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.back.b1,.back.b2,.back.b3,.back.b4,.back.b5,.back.b6,.back.b7,.back.b8,.back.b9,.back.b10
+{
+    background-repeat: no-repeat;
+}
+
+.pd1
+{
+    height: 447px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0;
+    border-radius: 10px;
+}
+
+.header-text 
+{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.header-text h2 {
+
+    font-family: "Barlow", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 0;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+}
+
+.header-text h1 {
+    margin: 0 0 20px  0;
+    font-size: 25px;
+    line-height: 1;
+    letter-spacing: 0;
+    color: #000000;
+    font-weight: 100;
+}
+.header-text div
+{
+    margin-top: 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+    border-radius: 9999px;
+    width: 8%;
+}
+.why-choose-us
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.contact {
+    background-color: #d2d2d2;
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.categories {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #e2e2e2;
+    padding: 50px 10%;
+    text-align: center;
+}
+.categories p
+{
+     font-family: var(--roboto);
+    font-size: 18px;
+    color: #636363;
+    font-weight: 300;
+    line-height: 1.8;
+}
+.hero
+{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heroo {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heroo .heroo-content h1 {
+    color: white;
+    font-size: 70px;
+    font-family: "Poiret One", sans-serif;
+    margin: 0;
+}
+
+
+.contact-head {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.head-contact {
+    text-align: center;
+}
+
+.head-contact h1 {
+    color: white;
+    font-size: 70px;
+    font-family: "Poiret One", sans-serif;
+    margin: 0;
+}
+
+.boxes
+{
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    background-color: white;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+footer
+{
+    display: flex;
+    flex-direction: column;
+}
+}
